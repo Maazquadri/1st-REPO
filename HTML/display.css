@@ -1,0 +1,62 @@
+.a {
+  font-size: 40px;
+  padding: 30px;
+}
+a:visited {
+  background-color: darkorange;
+}
+a:hover {
+  color: deeppink;
+  background-color: deepskyblue;
+}
+h1 {
+  background-color: brown;
+  display: inline;
+  /* display: inline-block; ---inline element par width or height apply nahi hogi
+  agar hme height of width badhani hai to hme inline block use krna hoga */
+}
+span {
+  background-color: cornflowerblue;
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+li {
+  display: inline-block;
+  background-color: darkgreen;
+  width: 230px;
+  height: 240px;
+}
+.none {
+  background-color: darkgreen;
+  height: 155px;
+  width: 169px;
+  margin: 5px;
+  display: none;
+  /* agar apko hide karna hai to display none use krna hoga or agar apko uski jaga baqi rakhni hai or hide bhi karna hai to visibility hidden use krna hoga */
+}
+.none2 {
+  background-color: darkgreen;
+  height: 155px;
+  width: 169px;
+  visibility: hidden;
+}
+/* display properties: 
+display inline:
+display block: 
+display inline block:
+display none : 
+visibility hidden:  */
+input:focus {
+  background-color: gold;
+}
+.overflow {
+  background-color: crimson;
+  width: 400px;
+  height: 500px;
+  /* overflow: visible; */
+  /* overflow: hidden; */
+  /* overflow: scroll; */
+  /* overflow: auto; */
+  /* overflow-x: hidden; */
+}

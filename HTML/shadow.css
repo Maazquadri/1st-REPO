@@ -1,0 +1,9 @@
+.shadows {
+  text-shadow: coral 3px 4px 5px;
+}
+.box_shadow {
+  width: 400px;
+  height: 400px;
+  background-color: crimson;
+  box-shadow: darkblue 5px 5px 5px, black -5px -5px 5px, inset black 5px 5px 5px;
+}

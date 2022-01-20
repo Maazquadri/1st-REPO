@@ -1,0 +1,53 @@
+/* .first {
+  text-align: center;
+  background-color: blue;
+  text-transform: capitalize;
+}
+.second {
+  text-align: right;
+  background-color: brown;
+  text-transform: lowercase;
+}
+.third {
+  text-align: left;
+  background-color: cyan;
+  text-transform: uppercase;
+} */
+.para {
+  text-indent: 50px;
+  word-spacing: 10px;
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+.button {
+  padding: 10px 15px;
+  background-color: darkgoldenrod;
+  border-radius: 10px;
+  color: blanchedalmond;
+  font-size: 18px;
+  box-shadow: coral 2px 3px 4px;
+  border: none;
+  cursor: pointer;
+}
+.input {
+  width: 180px;
+  height: 50px;
+  background-color: chocolate(51, 83, 11);
+  border-radius: 10px;
+  border: none;
+  box-shadow: cyan -3px -3px 3px;
+  color: white;
+}
+.first {
+  float: left;
+  width: 30%;
+  height: 400px;
+  background-color: turquoise;
+}
+.second {
+  float: left;
+  /* clear: right; */
+  width: 50%;
+  height: 400px;
+  background-color: yellowgreen;
+}

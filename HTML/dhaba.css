@@ -1,0 +1,27 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+li {
+  float: left;
+  padding: 0px 0px;
+  margin: 0px 0px;
+}
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: chartreuse;
+}
+.navimg {
+  display: inline-block;
+}
+ul li {
+  padding: 0px 30px;
+}

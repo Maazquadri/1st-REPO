@@ -1,0 +1,53 @@
+.main {
+  background-color: blue;
+  width: 800px;
+  height: 1000px;
+}
+.static {
+  background-color: brown;
+  width: 250px;
+  height: 200px;
+  /* top,bottom,left,right,z-index, ye 5 chize static me apply nahi hoti */
+}
+.relative {
+  background-color: burlywood;
+  width: 250px;
+  height: 200px;
+  position: relative;
+  top: 100px;
+  left: 100px;
+  z-index: 5px;
+}
+.absolute {
+  background-color: cyan;
+  width: 250px;
+  height: 200px;
+  position: relative;
+  z-index: 10px;
+}
+.main2 {
+  background-color: darkred;
+  height: 1000px;
+  width: 1000px;
+}
+.main3 {
+  background-color: darkslategray;
+  width: 800px;
+  height: 1000px;
+}
+.sticky {
+  background-color: forestgreen;
+  width: 140px;
+  height: 140px;
+  position: sticky;
+  left: 200px;
+  top: 100px;
+}
+.fixed {
+  background-color: fuchsia;
+  width: 200px;
+  height: 300px;
+  position: fixed;
+  left: 900px;
+  top: 100px;
+}
