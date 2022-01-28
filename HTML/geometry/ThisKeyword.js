@@ -58,19 +58,27 @@
 
 
 
-const movies ={
-    firstName:"John",
-    lastName:"Wick",
-    tags: [5,10,15,20,25],
-    getFullName(){
-        // const self=this;
-        this.tags.forEach(function(elem){
-            return console.log(this.fname+" "+elem+" "+this.lname);
-        }.bind(this)
-        );
-    },
-};
-function getName(){
-    return console.log(this);
+// const movies ={
+//     firstName:"John",
+//     lastName:"Wick",
+//     tags: [5,10,15,20,25],
+//     getFullName(){
+//         // const self=this;
+//         this.tags.forEach(function(elem){
+//             return console.log(this.fname+" "+elem+" "+this.lname);
+//         }.bind(this)
+//         );
+//     },
+// }; 
+// function getName(){
+//     return console.log(this);
+// }
+// console.log(getName.bind({value:20})())
+
+
+
+
+
+function GetFullName (fname,lname){
+
 }
-console.log(getName.bind({value:20})())
